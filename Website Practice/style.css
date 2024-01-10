@@ -1,0 +1,46 @@
+h1{
+    animation: color 2s infinite;
+    text-shadow: 2px 2px 4px black;
+    
+}
+
+@keyframes color {
+    0% {color: blue;}
+    10% {color: gray;}
+    20% {color: greenyellow;}
+    30% {color: red;}
+    40% {color: yellow;}
+    50% {color: pink;}
+    60% {color: white;}
+    70% {color: purple;}
+    80% {color: orangered;}
+    90% {color: black;}
+    100% {color: aqua;}
+
+
+}
+ 
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    text-align: center;
+    background-color: lightgray;
+}
+
+.title-container {
+    margin-bottom: 20px;
+}
+
+.centered-title {
+    font-weight: bold;
+}
+
+.content {
+    max-width: 600px;
+    margin: 20px;
+}
